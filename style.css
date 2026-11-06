@@ -3,15 +3,13 @@
 }
 
 body {
-  font-family: system-ui, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   background: #f4f6fb;
-  color: #222;
 }
 
 header {
-  background: linear-gradient(135deg, #4f46e5, #7c3aed);
-  color: white;
+  color: #4f46e5;
   text-align: center;
   padding: 3rem 1rem;
 }
@@ -26,15 +24,12 @@ main {
   padding: 0 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .membre {
   background: white;
   padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .membre h2 {
@@ -45,9 +40,6 @@ main {
 .owner {
   background: white;
   padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .owner h2 {
@@ -56,13 +48,12 @@ main {
 }
 
 a {
-  color: #7c3aed;
-  font-weight: 600;
+  color: #000000;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 footer {
